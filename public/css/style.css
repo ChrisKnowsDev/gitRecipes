@@ -66,6 +66,30 @@ button[name='submit']:hover {
   background: var(--color-alternate);
 }
 
+.recipe {
+  background: var(--color-light);
+  margin: 1rem;
+  color: var(--color-dark);
+  border-radius: 3px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe p {
+  margin: 1rem 0;
+}
+
+.recipe a {
+  margin-top: 1rem;
+  text-align: center;
+  /* cursor: pointer; */
+}
+
+.recipe img {
+  height: 200px;
+}
+
 /* media queries */
 @media (min-width: 768px) {
   nav {
