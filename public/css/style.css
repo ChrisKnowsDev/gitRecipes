@@ -1,9 +1,9 @@
 :root {
-  --color-dark: #120136;
+  --color-dark: #2a2b2e;
   --color-light: #fff;
-  --color-primary: #fcbf1e;
-  --color-secondary: #40bad5;
-  --color-alternate: #035aa6;
+  --color-primary: #aceb98;
+  --color-secondary: #5a5a66;
+  --color-alternate: #a4c2a8;
 }
 
 * {
@@ -51,7 +51,7 @@ input {
 }
 
 button[name='submit'] {
-  background: var(--color-dark);
+  background: var(--color-secondary);
   color: var(--color-light);
   padding: 1rem;
   display: inline-block;
